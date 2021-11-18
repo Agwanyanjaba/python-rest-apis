@@ -1,4 +1,3 @@
-import requests
 thislist = [
     "mango", "Pine", "Apple", "Guava", "orange", "kiwi", "melon", "mango"
 ]
@@ -101,9 +100,13 @@ my_function()
 my_function("Brazil")
 
 
-response = requests.get("http://api.open-notify.org/astros.json")
-data = response.json()
-#print output of the number of people in space
-print(data['number'])
+# response = requests.get("http://api.open-notify.org/astros.json")
+# data = response.json()
+# #print output of the number of people in space
+# print(data['number'])
 
-print(data)
+# print(data)
+
+
+
+#Python classes
